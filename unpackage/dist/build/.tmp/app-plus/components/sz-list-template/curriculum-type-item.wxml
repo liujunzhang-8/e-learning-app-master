@@ -1,0 +1,1 @@
+<view class="curriculum-type-item" bind:__l="__l"><view class="type-title"><text class="ccc">——</text><text class="type-title-text">{{list.title}}</text><text class="ccc">——</text></view><uni-grid options="{{list.typeList}}" show-border="{{false}}" column-num="3" isCurriculum="true"></uni-grid></view>

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "创建培训",
+  "usingComponents": {
+    "rui-date-picker": "/components/rattenking-dtpicker/rattenking-dtpicker"
+  }
+}

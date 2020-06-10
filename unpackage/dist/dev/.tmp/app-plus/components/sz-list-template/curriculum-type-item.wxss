@@ -1,0 +1,25 @@
+
+.ccc{
+		color:#ccc;
+}
+.type-title-text{
+		margin:0 20rpx;
+}
+.uni-grid-item{
+		margin:10rpx;
+		-webkit-box-shadow: 0px 20rpx 30rpx #f8f8f8;
+		        box-shadow: 0px 20rpx 30rpx #f8f8f8;
+		border-radius: 12rpx;
+}
+.uni-grid-item-text{
+		font-size:28rpx;
+}
+	/* 	.uni-grid-item[data-v-7bdbcfa6]:before{
+		padding-bottom:70%;
+	} */
+.type-title{
+		text-align: center;
+		font-size:32rpx;
+		margin:30rpx 0;
+}
+

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "uni-grid": "/components/uni-my/my-curriculum-grid"
+  },
+  "component": true
+}

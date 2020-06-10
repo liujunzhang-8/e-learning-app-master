@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "学习历程",
+  "navigationBarBackgroundColor": "#F9F9F9",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "uni-steps": "/components/uni-steps/uni-steps"
+  }
+}

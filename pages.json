@@ -1,0 +1,238 @@
+{
+	"pages": [{
+			"path": "pages/index",//首页
+			"style": {
+				"navigationBarTitleText": "保险专家平台",
+				"navigationBarBackgroundColor":"#F9F9F9",
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+                    "titleNView": {
+                        "buttons": [
+                            {
+                                "text": "\ue61f",
+                                "fontSrc": "/static/iconfont.ttf",
+                                "fontSize": "22px",
+								"color":"#333",
+								"badgeText":""
+                            }
+                        ]
+                    }
+                }
+			}
+		},{
+			"path": "pages/curriculum",//课程
+			"style": {
+				"navigationBarTitleText": "课程"
+				// "navigationBarBackgroundColor":"red"
+			}
+		},{
+			"path": "pages/learning-process",//学习历程
+			"style": {
+				"navigationBarTitleText": "学习历程",
+				"navigationBarBackgroundColor":"#F9F9F9",
+				"navigationBarTextStyle": "black"
+				// "app-plus": {
+			 //        "titleNView": {
+			 //            "buttons": [
+			 //                {
+			 //                    "text": "签到",
+			 //                    "fontSize": "14px",
+				// 				"color":"#333",
+				// 				"badgeText":""
+			 //                }
+			 //            ]
+			 //        }
+			 //    }
+			}
+		},{
+			"path": "pages/my",//个人中心
+			"style": {
+				"navigationStyle":"custom",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path": "pages/train/my-train",//个人中心
+		    "style": {
+		    	"navigationBarTitleText": "培训详情"
+		    }
+		},{
+            "path" : "pages/train/train-detile",//培训详情
+            "style": {
+            	"navigationBarTitleText": "培训详情"
+            }
+        },{
+		    "path" : "pages/train/train-list",//列表
+		    "style": {
+		    	"navigationBarTitleText": "课程列表"
+		    }
+		},{
+		    "path" : "pages/train/train-item",//列表
+		    "style": {
+		    	"navigationBarTitleText": "课程详情"
+		    }
+		},{
+		    "path" : "pages/tabbar/tabbar",//直播列表
+		    "style": {
+		    	"navigationBarTitleText": "直播列表"
+		    }
+		}
+        ,{
+            "path" : "pages/my/study-record",
+            "style" : {
+				"navigationBarTitleText": "学习轨迹"
+			}
+        }
+        ,{
+            "path" : "pages/headmaster/headmaster",
+            "style" : {
+				"navigationBarTitleText": "班主任管理"
+			}
+        }
+        ,{
+            "path" : "pages/lecturer/lecturer",
+            "style" : {
+            	"navigationBarTitleText": "讲师管理"
+            }
+        }
+        ,{
+            "path" : "pages/customer-service/customer-service",
+            "style" : {
+				"navigationBarTitleText": "即时解困"
+			}
+        },
+		{
+		    "path" : "pages/my/my-task",
+		    "style" : {
+				"navigationBarTitleText": "我的任务"
+			}
+		},
+		{
+		    "path" : "pages/my/my-news",
+		    "style" : {
+				"navigationBarTitleText": "我的消息"
+			}
+		}
+        ,{
+            "path" : "pages/my/my-evaluation",
+            "style" : {
+				"navigationBarTitleText": "测评"
+			}
+        },{
+            "path" : "pages/my/honor",
+            "style" : {
+				"navigationBarTitleText": "荣誉殿堂"
+			}
+        }
+		
+        ,{
+            "path" : "pages/lecturer/lesson-preparation",//备课
+            "style" : {
+            	"navigationBarTitleText": "备课"
+            }
+        },{
+            "path" : "pages/my/my-collection",//z正在进行 //我的收藏
+            "style" : {
+				"navigationBarTitleText": "我正在进行的"
+			}
+        }
+        ,{
+            "path" : "pages/examination/examination",
+            "style" : {
+				"navigationBarTitleText": "开始考试"
+			}
+        }
+		,{
+		    "path" : "pages/examination/examine",
+		    "style" : {
+				"navigationBarTitleText": "开始考试"
+			}
+		},
+		{
+		    "path" : "pages/examination/examineresult",
+		    "style" : {
+				"navigationBarTitleText": "考试成绩"
+			}
+		},
+		{
+		    "path" : "pages/my/underway",
+		    "style" : {
+				"navigationBarTitleText": "我的收藏"
+			}
+		},
+		{
+		    "path" : "pages/my/add-new-member",
+		    "style" : {
+				"navigationBarTitleText": "我要增员"
+			}
+		},
+		{
+		    "path" : "pages/my/my-integral",//备课
+		    "style": {
+		    	"navigationStyle":"custom",
+		    	"app-plus":{
+		    		"titleNView":false
+		    	}
+		    }
+		},
+		{
+		    "path" : "pages/headmaster/admin",//培训管理页面
+		    "style" : {
+		    	"navigationBarTitleText": "培训管理"
+		    }
+		},
+		{
+		    "path" : "pages/headmaster/add-train",//培训管理页面
+		    "style" : {
+		    	"navigationBarTitleText": "创建培训"
+		    }
+		}
+		
+		
+        ,{
+            "path" : "pages/my-train1/my-train1",
+            "style" : {}
+        },
+		{
+		    "path" : "pages/headmaster/add-meeting",//创建会议
+		    "style" : {
+		    	"navigationBarTitleText": "创建会议"
+		    }
+		}
+    ],
+	"tabBar": {
+		"color": "#000000",
+		"selectedColor": "#FF8864",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [{
+			"pagePath": "pages/index",
+			"iconPath": "static/tabBar1.png",
+			"selectedIconPath": "static/tabBar1_active.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/curriculum",
+			"iconPath": "static/tabBar2.png",
+			"selectedIconPath": "static/tabBar2_active.png",
+			"text": "课程"
+		},{
+			"pagePath": "pages/learning-process",
+			"iconPath": "static/tabBar3.png",
+			"selectedIconPath": "static/tabBar3_active.png",
+			"text": "学习历程"
+		},{
+			"pagePath": "pages/my",
+			"iconPath": "static/tabBar4.png",
+			"selectedIconPath": "static/tabBar4_active.png",
+			"text": "我的"
+		}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTitleText": "保险专家平台",
+		"navigationBarBackgroundColor":"#F9F9F9",
+		"navigationBarTextStyle": "black"
+	}
+}

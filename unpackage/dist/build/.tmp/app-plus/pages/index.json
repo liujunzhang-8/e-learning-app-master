@@ -1,0 +1,23 @@
+{
+  "navigationBarTitleText": "保险专家平台",
+  "navigationBarBackgroundColor": "#F9F9F9",
+  "navigationBarTextStyle": "black",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "",
+        "fontSrc": "/static/iconfont.ttf",
+        "fontSize": "22px",
+        "color": "#333",
+        "badgeText": ""
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-notice-bar": "/components/uni-notice-bar/uni-notice-bar",
+    "uni-steps": "/components/uni-steps/uni-steps",
+    "uni-grid": "/components/uni-grid/uni-grid",
+    "conduct-item": "/components/sz-list-template/conduct-item",
+    "curriculum-item": "/components/sz-list-template/curriculum-item"
+  }
+}

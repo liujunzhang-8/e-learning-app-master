@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "直播列表",
+  "usingComponents": {
+    "live-item": "/components/sz-list-template/live-item"
+  }
+}

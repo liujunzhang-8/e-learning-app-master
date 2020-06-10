@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "荣誉殿堂",
+  "usingComponents": {
+    "uni-grid": "/components/uni-my/my-honor"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "培训详情",
+  "usingComponents": {
+    "wuc-tab": "/components/wuc-tab/wuc-tab",
+    "uni-rate": "/components/uni-rate/uni-rate",
+    "uni-evaluate": "/components/xiujun-evaluate/uni-evaluate"
+  }
+}

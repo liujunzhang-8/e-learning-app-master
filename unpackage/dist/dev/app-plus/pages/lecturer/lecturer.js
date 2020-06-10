@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"grid{ background-color:#fff; margin:",[0,20],"; border-radius: ",[0,20],"; overflow: hidden; }\n.",[1],"grid .",[1],"grid-title{ padding:",[0,30],"; border-bottom:",[0,2]," solid #c8c7cc; }\n",],undefined,{path:"./pages/lecturer/lecturer.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/lecturer/lecturer.wxml') } }));

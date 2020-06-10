@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "开始考试",
+  "usingComponents": {
+    "uni-grid": "/components/uni-my/examination-grid"
+  }
+}

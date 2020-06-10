@@ -1,0 +1,28 @@
+
+.conduct-item{
+		/* width: 304upx;
+		height:188upx; */
+		margin-right: 30rpx;
+		font-size: 39rpx;
+		color: #303133;
+		line-height: 1.2;
+		text-align: center;
+}
+.conduct-item image{
+		width: 304rpx;
+		height:188rpx;
+		border-radius: 9rpx;
+}
+.clamp {
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+	font-size:24rpx;
+	color:#999;
+}
+/* .seckill-section .conduct-item .price[data-v-1ba83716] {
+    color: #fa436a;
+} */
+

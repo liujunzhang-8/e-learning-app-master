@@ -1,0 +1,371 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*样式的width和height一定要与定义的cWidth和cHeight相对应*/
+page{
+	height:auto;
+}
+.qiun-charts {
+	width: 750rpx;
+	height: 500rpx;
+}
+.charts {
+	width: 750rpx;
+	height: 500rpx;
+}
+.data-table{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	padding:20rpx 0;
+	background-color:#fff;
+	height:100rpx;
+}
+.data-table>view{
+	-webkit-box-flex:1;
+	-webkit-flex:1;
+	    -ms-flex:1;
+	        flex:1;
+}
+.data-table .time{
+	font-size:36rpx;
+	color:#FF8864;
+}
+.data-table .company{
+	font-size:24rpx;
+	color:#ccc;
+}
+.data-table .title{
+	font-size:24rpx;
+	color:#333;
+}
+.data-table .table-item{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	text-align: center;
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+	-webkit-flex-direction:column;
+	    -ms-flex-direction:column;
+	        flex-direction:column;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.study-trajectory{
+	background-color:#fff;
+}
+.study-trajectory .title{
+	margin:20rpx 0;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align:center;
+	-webkit-align-items:center;
+	    -ms-flex-align:center;
+	        align-items:center;
+}
+.study-trajectory .title-text{
+	font-size:36rpx;
+}
+.study-trajectory .title-right{
+	font-size: 13px;
+	color: #ccc;
+}
+.study-trajectory .title{
+	height:80rpx;
+	line-height:80rpx;
+	position:relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.study-trajectory .title image{
+	width:16rpx;
+	height:24rpx;
+	margin-left:6rpx;
+/* 		vertical-align:middle; */
+}
+.study-trajectory .title-text{
+	font-size:36rpx;
+		/* font-weight: 600; */
+	color:#333;
+}
+.study-trajectory .title-right{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	font-size:24rpx;
+	color:#ccc;
+	line-height:80rpx;
+}
+.time-axis{
+	background-color:#fff;
+	padding:0 30rpx;
+}
+/* 时间轴样式修改 */
+.uni-timeline-item .uni-timeline-item-divider{
+	background-color:#ccc;
+}
+.uni-timeline-item .uni-timeline-item-keynode{
+	width:auto;
+	text-align: left;
+}
+.uni-timeline-item .uni-timeline-item-content{
+	border-radius: 6rpx;
+	background-color:#f7f7f7;
+	width:100%;
+	margin-left:24rpx;
+	padding:22rpx;
+}
+.uni-timeline-item .uni-timeline-item-content image{
+	width:32rpx;
+	height:32rpx;
+	vertical-align: middle;
+	margin-right:16rpx;
+}
+.uni-timeline-item .uni-timeline-item-content text{
+	margin-right:16rpx;
+}
+.uni-timeline-item .uni-timeline-item-text{
+	font-size:24rpx;
+	color:#999;
+}
+.uni-timeline-item .uni-timeline-item-divider{
+	width:33rpx;
+	height:33rpx;
+}
+.uni-timeline-last-item .uni-timeline-item-divider{
+	background-color:#ccc;
+}
+.uni-timeline-item-title{
+	font-size:32rpx;
+}
+
+

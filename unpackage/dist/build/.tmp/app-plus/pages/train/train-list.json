@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "课程列表",
+  "usingComponents": {
+    "wuc-tab": "/components/wuc-tab/wuc-tab",
+    "curriculum-item": "/components/sz-list-template/curriculum-item"
+  }
+}

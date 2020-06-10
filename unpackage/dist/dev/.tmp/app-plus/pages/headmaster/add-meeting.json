@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "创建会议",
+  "usingComponents": {
+    "rui-date-picker": "/components/rattenking-dtpicker/rattenking-dtpicker"
+  }
+}

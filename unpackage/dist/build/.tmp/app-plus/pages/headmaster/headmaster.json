@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "班主任管理",
+  "usingComponents": {
+    "uni-grid": "/components/uni-my/my-grid"
+  }
+}

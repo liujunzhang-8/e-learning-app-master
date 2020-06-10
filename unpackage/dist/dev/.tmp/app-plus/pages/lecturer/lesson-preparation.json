@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "备课",
+  "usingComponents": {
+    "ly-markdown": "/components/ly-markdown/ly-markdown"
+  }
+}

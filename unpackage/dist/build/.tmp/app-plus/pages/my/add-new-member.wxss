@@ -1,0 +1,49 @@
+
+.padding-wrap{
+	width:690rpx;
+	padding:0 30rpx;
+}
+.common-pb{
+	padding-bottom:30rpx;
+}
+.header-logo{
+	text-align:center;
+	padding-top:30rpx;
+}
+.header-logo image{
+	width: 400rpx;
+	height: 100rpx;
+}
+.hello-text{
+	text-align:left;
+	margin-top:50rpx;
+	font-size: 35rpx;
+}
+.bottom-btn{
+	margin-top:650rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+.add-record {
+	width: 40%;
+}
+.add-record button{
+	margin-left: 0rpx;
+	width: 80%;
+}
+.invite-friends {
+	width: 60%;
+}
+.invite-friends button{
+	margin-left: 0rpx;
+	width: 100%;
+}	
+
+

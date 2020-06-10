@@ -1,0 +1,122 @@
+
+.media-list {
+		width: 100%;
+		margin-top: 2rpx;
+		padding: 20rpx 30rpx;
+		background: #FFFFFF;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		width: 100%;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+}
+.media-list-title{
+		font-size:32rpx;
+}
+.navigate-left{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-flex:1;
+		-webkit-flex:1;
+		    -ms-flex:1;
+		        flex:1;
+}
+.media-list-logo {
+		height:88rpx;
+		width: 88rpx;
+		padding:6rpx;
+		margin-right: 20rpx;
+}
+.media-list-logo image {
+		height: 100%;
+		width: 100%;
+		border-radius:50rpx;
+}
+.navigate-right {
+		height: 20rpx;
+		width: 12rpx;
+	/* 	margin-right: 10upx;
+		margin-top: 20upx; */
+}
+	/* 	.navigate-right image {
+		height: 100%;
+		width: 100%;
+	} */
+.media-list-body {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-flex: 1;
+		-webkit-flex: 1;
+		    -ms-flex: 1;
+		        flex: 1;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+}
+.media-list-time{
+		font-size:24rpx;
+		color:#ccc;
+}
+.media-list-text-top {
+		width: 100%;
+		color:#333;
+		margin-bottom:5rpx;
+}
+.media-list-text-top view{
+		line-height: 1.4;
+}
+.media-list-describe {
+		font-size:24rpx;
+		color:#999;
+}
+.media-list-text-bottom {
+		width: 100%;
+/* 		line-height: 30upx; */
+		font-size: 24rpx;
+		color: #999;
+}
+.media-list-info{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+}
+.ellipsis {
+		overflow: hidden; 
+		white-space: nowrap; 
+		-o-text-overflow: ellipsis; 
+		   text-overflow: ellipsis;
+}	
+

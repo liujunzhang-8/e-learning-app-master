@@ -1,0 +1,103 @@
+
+view{
+		line-height: 1;
+}
+.card{
+		margin:30rpx;
+		background-color:#fff;
+		-webkit-box-shadow: 0px 0rpx 20rpx #e5e5e5;
+		        box-shadow: 0px 0rpx 20rpx #e5e5e5;
+		padding:0 16rpx;
+		padding-bottom:30rpx;
+		border-radius: 12rpx;
+}
+.card .card-haader{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		height:80rpx;
+		line-height: 80rpx;
+		margin-bottom:30rpx;
+		border-bottom:1rpx dashed #E8E8EA;
+}
+.card .card-haader .card-title{
+		font-size:32rpx;
+		color:#333;
+}
+.card .card-haader image{
+		width:30rpx;
+		height:34rpx;
+		margin-right:12rpx;
+}
+.card .card-content .img{
+		padding:0 20rpx;
+}
+.card .card-title{
+		-webkit-box-flex:1;
+		-webkit-flex:1;
+		    -ms-flex:1;
+		        flex:1;
+		font-size:32rpx;
+		color:#333;
+}
+.card .card-time{
+		-webkit-box-flex: 0;
+		-webkit-flex: 0 0 auto;
+		    -ms-flex: 0 0 auto;
+		        flex: 0 0 auto;
+		text-align: right;
+		font-size:24rpx;
+		color:#999;
+}
+.card-content image{
+		width:100%;
+		height:240rpx;
+		margin-bottom:16rpx;
+}
+.card-content-title{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		font-size:32rpx;
+		color:#333;
+		margin-bottom:6rpx;
+/* 		line-height: 1.2; */
+}
+.card-content-title .state{
+		color:#FF993F;
+		font-size:24rpx;
+		border:1rpx solid #FF993F;
+		padding:8rpx 10rpx;
+		border-radius: 4rpx;
+}
+.card-content-time{
+		color:#999;
+		font-size:24rpx;
+		margin-bottom:20rpx;
+}
+.card-content-text{
+		font-size:28rpx;
+		color:#333;
+		line-height: 1.8;
+		overflow: hidden;
+		-webkit-line-clamp: 2;
+		-o-text-overflow: ellipsis;
+		   text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+}
+
